@@ -1,5 +1,5 @@
 # Ambiguity-Function
-implementation of ambiguity function in Matlab language and analyses of some signals
+# implementation of ambiguity function in Matlab language and analyses of some signals
 Ambiguity function is a 2D function of delay and Doppler frequency. It is an integral like fft integral. For narrowband
 siganls we can use FFT algorithm istead of computing the integral; It is very faster because of its algorithm order(NlogN vs N^2).
 When there is radial velocity between radar and target, we have frequency shift(Doppler frequency) in reflected signal.
